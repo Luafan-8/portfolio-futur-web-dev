@@ -1,14 +1,31 @@
-// src/App.js
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Navbar from "../src/components/Navbar";
+import Footer from "../src/components/Footer";
+
+import Home from "../src/pages/Home";
+import Services from "../src/pages/Services";
+import Portfolio from "../src/pages/Portfolio";
+import Contact from "../src/pages/Contact";
+import MentionsLegales from "../src/pages/MentionLegales";
 
 function App() {
   return (
-    <div className="container mt-5">
-      <h1 className="text-primary">Bienvenue sur mon site !</h1>
-      <p>Ceci est un site créé avec React et Bootstrap.</p>
-    </div>
+    <BrowserRouter>
+
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/mentions-legales" element={<MentionsLegales />} />
+      </Routes>
+
+      <Footer />
+
+    </BrowserRouter>
   );
 }
 
