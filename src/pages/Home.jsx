@@ -7,8 +7,6 @@ function Home() {
   return (
     <main>
 
-{/* penser à l'image qui sera dans le css */}
-      
 {/* hero */}
 <section className="hero">
   <div className="hero-bg" style={{ backgroundImage: `url(${heroBg})` }}>

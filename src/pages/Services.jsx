@@ -1,8 +1,13 @@
+import banner from "../assets/images/banner.jpg"
+
 function Services() {
   return (
     <main>
 
-      {/* banner en css */}
+       <div className="services-banner" style={{backgroundImage: `url(${banner})`,backgroundSize: "cover",backgroundPosition: "center",height: "400px",width: "100%",}}>
+        <div className="banner-overlay">
+        </div>
+      </div>
 
       {/* contenu */}
       <section className="container my-5">
