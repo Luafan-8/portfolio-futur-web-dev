@@ -7,7 +7,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  padding-top: 50px; /* ajuster la page selon la navbar */
+  padding-top: 50px;
+}
+
+main {
+  flex: 1;
+}
+
+.app-wrapper {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
 }
 
 code {
@@ -20,6 +30,11 @@ hr {
   background: #0D6EFD
 }
 
+.short-hr {
+  margin: 15px 0;
+  height: 3px;
+}
+
 h1,h2,h3 {
   font-weight: 600;
   
@@ -30,6 +45,8 @@ h4,h5{
   font-weight: 300;
 }
 
+
+/* CSS du Home */
 .home-hero {
   height: 60vh;
   background-size: cover;
@@ -72,7 +89,7 @@ h4,h5{
   color: white;
 }
 
-.hero-content button:hover {
+.hero-content button:hover{
   background-color: darkred;
   border-color: darkred;
 }
@@ -80,6 +97,9 @@ h4,h5{
 button {
   text-align: center;
 }
+
+
+/* Css Modal */
 
 .github-modal {
   background-color: #121212 ;
@@ -112,8 +132,39 @@ button {
   margin-bottom: 4px;
 }
 
-.short-hr {
-  margin: 15px 0;
-  height: 3px;
+/* {Css contact} */
+
+.map-container {
+  height: 450px;
 }
 
+@media (min-width: 768px) {
+  .map-container {
+    height: 350;
+  }
+}
+
+/* CSS footer */
+.social-icons a {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: white;
+}
+
+.footer-links a {
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: none;
+  color: white;
+  }
+
+  /* Css NavBar */
+  .navbar-nav .nav-link.active {
+  text-decoration: underline;
+  font-weight: 600;
+}

@@ -26,9 +26,7 @@ function Services() {
                 <i className="bi bi-brush fs-1" style={{color:"blue"}} ></i>
               </div>
               <h4 className="h4">UX Design</h4>
-              <p>
-                Le terme UX vient d'user experience ou expérience utilisateur. Le travail de l'UX designer consiste donc à concevoir une interface accessible et facile à prendre en main pour tout type de support.
-              </p>
+              <p>Le terme UX vient d'user experience ou expérience utilisateur. Le travail de l'UX designer consiste donc à concevoir une interface accessible et facile à prendre en main pour tout type de support.</p>
             </div>
           </div>
 
@@ -39,9 +37,7 @@ function Services() {
                 <i className="bi bi-code-slash" style={{ fontSize: "3rem",color:"blue"}}></i>
               </div>
               <h4 className="h4">Développpement web</h4>
-              <p>
-                Le développement web consiste à concevoir, créer et gérer des sites web et applications en ligne. Il regroupe toutes les étapes de création, depuis la mise en place de l'architecture d'un site jusqu'à la gestion des serveurs et de l'interface utilisateur
-              </p>
+              <p>Le développement web consiste à concevoir, créer et gérer des sites web et applications en ligne. Il regroupe toutes les étapes de création, depuis la mise en place de l'architecture d'un site jusqu'à la gestion des serveurs et de l'interface utilisateur</p>
             </div>
           </div>
 
@@ -52,9 +48,7 @@ function Services() {
                 <i class="bi bi-search" style={{ fontSize: "3rem", color:"blue" }}></i>
               </div>
               <h4 className="h4">Référencement</h4>
-              <p>
-                Le SEO (Search Engine Optimization), ou référencement naturel, consiste à aider les moteurs de recherche à interpréter votre contenu, et à aider les internautes à trouver votre site et à décider s'ils doivent y accéder ou non via un moteur de recherche.
-              </p>
+              <p>Le SEO (Search Engine Optimization), ou référencement naturel, consiste à aider les moteurs de recherche à interpréter votre contenu, et à aider les internautes à trouver votre site et à décider s'ils doivent y accéder ou non via un moteur de recherche.</p>
             </div>
           </div>
 
