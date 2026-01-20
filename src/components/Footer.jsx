@@ -6,6 +6,7 @@ function Footer() {
       <div className="container">
         <div className="row">
 
+<<<<<<< HEAD
           {/* PARTIE 1 : Infos John Doe */}
           <div className="col-12 col-md-4 mb-4">
             <h4>John Doe</h4>
@@ -30,14 +31,44 @@ function Footer() {
               <li><Link to="/services" className="text-light">Services</Link></li>
               <li><Link to="/portfolio" className="text-light">Portfolio</Link></li>
               <li><Link to="/contact" className="text-light">Contact</Link></li>
+=======
+          {/* PART 1 Infos John Doe */}
+          <div className="col-12 col-md-4 mb-1 social-icons">
+            <h4 className="fs-4">John Doe</h4>
+            <p className="mb-1">10 rue Exemple</p>
+            <p className="mb-1">75000 Paris</p>
+            <p className="mb-1">01 23 45 67 89</p>
+            <p className="mb-1">john.doe@email.com</p>
+            <div className="d-flex gap-2 mt-2">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-light"><i class="bi bi-github"></i></a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-light"><i class="bi bi-twitter"></i></a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-light"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          {/* PART 1 : Navigation bis */}
+          <div className="col-12 col-md-4 mb-1 footer-links">
+            <h4 className="fs-4">Liens utiles</h4>
+            <ul className="list-unstyled">
+              <li><Link to="/" className="text-light">Accueil</Link></li>
+              <li><Link to="/services" className="text-light">Services</Link></li>
+              <li><Link to="/portfolio" className="text-light">Portfolio</Link></li>
+              <li><Link to="/contact" className="text-light">Me contact</Link></li>
+>>>>>>> master
               <li><Link to="/mentions-legales" className="text-light">Mentions légales</Link></li>
             </ul>
           </div>
 
+<<<<<<< HEAD
           {/* PARTIE 3 : Réalisations */}
           <div className="col-12 col-md-4 mb-4">
             <h4>Mes dernière réalisation</h4>
             <hr className="bg-light" />
+=======
+          {/* PART 1 : Réalisations */}
+          <div className="col-12 col-md-4 mb-4">
+            <h4 className="fs-4">Mes dernière réalisation</h4>
+>>>>>>> master
             <ul className="list-unstyled">
               <li>Fresh Food</li>
               <li>Restaurant</li>
@@ -51,10 +82,13 @@ function Footer() {
 
         </div>
 
+<<<<<<< HEAD
         {/* copyright */}
         <div className="text-center mt-4">
           <p className="mb-0">© 2026 John Doe - Tous droits réservés</p>
         </div>
+=======
+>>>>>>> master
       </div>
     </footer>
   );

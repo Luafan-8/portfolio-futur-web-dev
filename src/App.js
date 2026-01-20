@@ -12,7 +12,10 @@ import MentionsLegales from "../src/pages/MentionLegales";
 function App() {
   return (
     <BrowserRouter>
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
       <Navbar />
 
       <Routes>
@@ -23,7 +26,20 @@ function App() {
         <Route path="/mentions-legales" element={<MentionsLegales />} />
       </Routes>
 
+<<<<<<< HEAD
       <Footer />
+=======
+      <div className="app-wrapper">
+      <Navbar />
+      <main className="flex-fill">
+        <Routes>
+          {/* tes routes */}
+        </Routes>
+      </main>
+      <Footer />
+    </div>
+
+>>>>>>> master
 
     </BrowserRouter>
   );

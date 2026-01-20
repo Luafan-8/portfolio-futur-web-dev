@@ -3,8 +3,13 @@ function MentionsLegales() {
     <main className="container my-5">
 
       <h1 className="text-center mb-2">Mentions légales</h1>
+<<<<<<< HEAD
       <hr />
 
+=======
+      <hr className="short-hr" style={{ width: "35%", margin: "20px auto", }} />
+      
+>>>>>>> master
       {/* card */}
       <div className="card mt-4">
         <div className="card-body">
@@ -34,10 +39,17 @@ function MentionsLegales() {
               >
                 <div className="accordion-body">
                   <h3>John Doe</h3>
+<<<<<<< HEAD
                   <p>{/* MAP ICON */}40 rue Laure Diebold</p>
                   <p>{/* LOCALISATION ICON */}69009 Lyon, France</p>
                   <p>{/* TEL ICON */}01 23 45 67 89</p>
                   <p>{/* EMAIL ICON */}john.doe@gmail.com</p>
+=======
+                  <p><i class="bi bi-map"></i> 40 rue Laure Diebold</p>
+                  <p><i class="bi bi-geo-alt"></i> 69009 Lyon, France</p>
+                  <p><i class="bi bi-phone"></i> 01 23 45 67 89</p>
+                  <p><i class="bi bi-envelope-at"></i> john.doe@gmail.com</p>
+>>>>>>> master
                 </div>
               </div>
             </div>
@@ -63,7 +75,11 @@ function MentionsLegales() {
                 <div className="accordion-body">
                   <h3>alwaysdata</h3>
                   <p>Adresse2 rue Kellermann</p>
+<<<<<<< HEAD
                   <p>{/* icone web */} www.alwaysdata.com</p>
+=======
+                  <p><i class="bi bi-globe"></i> <a href="www.alwaysdata.com">www.alwaysdata.com</a> </p>
+>>>>>>> master
                 </div>
               </div>
             </div>
@@ -88,9 +104,15 @@ function MentionsLegales() {
               >
                 <div className="accordion-body">
                   <h3>Crédits</h3>
+<<<<<<< HEAD
                   <p>Les images utilisé sur ce site sont libres de droits et ont été obtenues sur le site Pixabay.</p>
                   <p>Ce site a été réalisé par John Doe, étudiant au Centre Européen de formation.</p>
                   <p>La favicon de ce site a été fournie par John doe Icon erstellt von Frrepik - Flaticon.</p>
+=======
+                  <p>Ce site a été réalisé par John Doe, étudiant au <a href="https://www.centre-europeen-formation.fr/" target="_blank" >Centre Européen de formation</a>.</p>
+                  <p>Les images utilisé sur ce site sont libres de droits et ont été obtenues sur le site <a href="https://pixabay.com/fr/" target="_blank" >Pixabay</a>.</p>
+                  <p>La favicon de ce site a été fournie par <a href="https://www.flaticon.com/fr/icones-gratuites/john-doe" target="_blank" >John doe Icon erstellt von Frrepik - Flaticon</a>.</p>
+>>>>>>> master
                 </div>
               </div>
             </div>

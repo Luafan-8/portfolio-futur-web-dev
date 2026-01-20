@@ -16,7 +16,11 @@ function Portfolio() {
 
         <h1 className="mb-2">Portfolio</h1>
         <p>Voici quelques-une de mes réalisations.</p>
+<<<<<<< HEAD
         <hr />
+=======
+        <hr className="my-0 " style={{background: "grey"}}/>
+>>>>>>> master
 
         <div className="row">
 
@@ -29,6 +33,7 @@ function Portfolio() {
                 alt="Fresh food"
               />
               <div className="card-body">
+<<<<<<< HEAD
                 <h2 className="card-title h5">Fresh Food</h2>
                 <p className="card-text">
                   Site de vente de produit frais en ligne
@@ -40,6 +45,21 @@ function Portfolio() {
               <hr />
               <div className="card-body">
                 <p className="mb-0">
+=======
+                <h5 className="card-title h5 text-center">Fresh Food</h5>
+                <p className="card-text text-center">
+                  Site de vente de produit frais en ligne
+                </p>
+                <div className="text-center">
+                  <button className="btn btn-primary">
+                    Voir le site
+                  </button>
+                </div>
+              </div>
+              <hr className="my-0 " style={{background: "grey"}}/>
+              <div className="card-body text-center bg-light">
+                <p className="mb-0 text-muted">
+>>>>>>> master
                   Site réalisé avec PHP et MySQL
                 </p>
               </div>
@@ -50,11 +70,16 @@ function Portfolio() {
           <div className="col-12 col-md-4 mb-4">
             <div className="card h-100">
               <img
+<<<<<<< HEAD
                 src={freshFood}
+=======
+                src={restorantJaponais}
+>>>>>>> master
                 className="card-img-top"
                 alt="Projet 2"
               />
               <div className="card-body">
+<<<<<<< HEAD
                 <h2 className="card-title h5">Restaurant Akira</h2>
                 <p className="card-text">
                   Site de vente de produit frais en ligne 
@@ -66,6 +91,21 @@ function Portfolio() {
               <hr />
               <div className="card-body">
                 <p className="mb-0">
+=======
+                <h2 className="card-title h5 text-center">Restaurant Akira</h2>
+                <p className="card-text text-center">
+                  Site de vente de produit frais en ligne 
+                </p>
+                <div className="text-center">
+                  <button className="btn btn-primary">
+                    Voir le site
+                  </button>
+                </div>
+              </div>
+              <hr className="my-0 " style={{background: "grey"}}/>
+              <div className="card-body text-center bg-light">
+                <p className="mb-0 text-muted">
+>>>>>>> master
                   Site réalisé avec Wordpress
                 </p>
               </div>
@@ -81,6 +121,7 @@ function Portfolio() {
                 alt="Projet 3"
               />
               <div className="card-body">
+<<<<<<< HEAD
                 <h2 className="card-title h5">Espace bien-être</h2>
                 <p className="card-text">
                   Site de vente de produit frais en ligne
@@ -92,6 +133,21 @@ function Portfolio() {
               <hr />
               <div className="card-body">
                 <p className="mb-0">
+=======
+                <h5 className="card-title h5 text-center">Espace bien-être</h5>
+                <p className="card-text text-center">
+                  Site de vente de produit frais en ligne
+                </p>
+                <div className="text-center">
+                  <button className="btn btn-primary">
+                    Voir le site
+                  </button>
+                </div>
+              </div>
+              <hr className="my-0 " style={{background: "grey"}}/>
+              <div className="card-body text-center bg-light">
+                <p className="mb-0 text-muted">
+>>>>>>> master
                   Sité réalisé avec LARAVEL
                 </p>
               </div>
@@ -107,6 +163,7 @@ function Portfolio() {
                 alt="Projet 4"
               />
               <div className="card-body">
+<<<<<<< HEAD
                 <h2 className="card-title h5">SEO</h2>
                 <p className="card-text">
                   Amélioration du référencement d'un site e-commerce
@@ -118,6 +175,21 @@ function Portfolio() {
               <hr />
               <div className="card-body">
                 <p className="mb-0">
+=======
+                <h5 className="card-title h5 text-center">SEO</h5>
+                <p className="card-text text-center">
+                  Amélioration du référencement d'un site e-commerce
+                </p>
+                <div className="text-center">
+                  <button className="btn btn-primary">
+                    Voir le site
+                  </button>
+                </div>
+              </div>
+              <hr className="my-0 " style={{background: "grey"}}/>
+              <div className="card-body text-center bg-light">
+                <p className="mb-0 text-muted">
+>>>>>>> master
                   Utilisation des outils SEO
                 </p>
               </div>
@@ -133,6 +205,7 @@ function Portfolio() {
                 alt="Projet 5"
               />
               <div className="card-body">
+<<<<<<< HEAD
                 <h2 className="card-title h5">Création d'une API</h2>
                 <p className="card-text">
                   Création d'une API RESTFULL publique
@@ -144,6 +217,21 @@ function Portfolio() {
               <hr />
               <div className="card-body">
                 <p className="mb-0">
+=======
+                <h5 className="card-title h5 text-center">Création d'une API</h5>
+                <p className="card-text text-center">
+                  Création d'une API RESTFULL publique
+                </p>
+                <div className="text-center">
+                  <button className="btn btn-primary">
+                    Voir le site
+                  </button>
+                </div>
+              </div>
+              <hr className="my-0 " style={{background: "grey"}}/>
+              <div className="card-body text-center bg-light">
+                <p className="mb-0 text-muted">
+>>>>>>> master
                   PHP - SYMFONY
                 </p>
               </div>
@@ -159,6 +247,7 @@ function Portfolio() {
                 alt="Projet 6"
               />
               <div className="card-body">
+<<<<<<< HEAD
                 <h2 className="card-title h5">Maquette d'un site web</h2>
                 <p className="card-text">
                   Création du prototype d'un site
@@ -170,6 +259,22 @@ function Portfolio() {
               <hr />
               <div className="card-body">
                 <p className="mb-0">
+=======
+                <h5 className="card-title h5 text-center">Maquette d'un site web</h5>
+                <p className="card-text text-center">
+                  Création du prototype d'un site
+                </p>
+                <div className="text-center">
+                  <button className="btn btn-primary">
+                    Voir le site
+                  </button>
+                </div>
+              </div>
+              
+              <hr className="my-0 " style={{background: "grey"}}/>
+              <div className="card-body text-center bg-light">
+                <p className="mb-0 text-muted">
+>>>>>>> master
                   Réaliser avec FIGMA
                 </p>
               </div>
