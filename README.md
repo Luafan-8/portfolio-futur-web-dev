@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# portfolio-futur-web-dev
-=======
 # Portfolio – John Doe
 
 Ce ReadME est écrit en anglais et en français.
