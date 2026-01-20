@@ -6,7 +6,7 @@ function Footer() {
       <div className="container">
         <div className="row">
 
-          {/* PARTIE 1 : Infos John Doe */}
+          {/* PART 1 Infos John Doe */}
           <div className="col-12 col-md-4 mb-1 social-icons">
             <h4 className="fs-4">John Doe</h4>
             <p className="mb-1">10 rue Exemple</p>
@@ -20,7 +20,7 @@ function Footer() {
             </div>
           </div>
 
-          {/* PARTIE 2 : Navigation bis */}
+          {/* PART 1 : Navigation bis */}
           <div className="col-12 col-md-4 mb-1 footer-links">
             <h4 className="fs-4">Liens utiles</h4>
             <ul className="list-unstyled">
@@ -32,7 +32,7 @@ function Footer() {
             </ul>
           </div>
 
-          {/* PARTIE 3 : Réalisations */}
+          {/* PART 1 : Réalisations */}
           <div className="col-12 col-md-4 mb-4">
             <h4 className="fs-4">Mes dernière réalisation</h4>
             <ul className="list-unstyled">

@@ -9,7 +9,7 @@ function Navbar() {
         John Doe
       </NavLink>
 
-      {/* Toggler pour mobile */}
+      {/* Toggle mobile */}
       <button
         className="navbar-toggler"
         type="button"
@@ -22,7 +22,7 @@ function Navbar() {
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      {/* Liens */}
+      {/* Liens/link */}
       <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">

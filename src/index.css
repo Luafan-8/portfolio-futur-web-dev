@@ -27,7 +27,7 @@ code {
 hr {
   border: none;               
   height: 3px;               
-  background: #0D6EFD
+  background: #0d6efd
 }
 
 .short-hr {
@@ -72,7 +72,7 @@ h4,h5{
 
 .hero-content {
   text-align: center;
-  color: white;
+  color: #fff;
 }
 
 .hero-content h1 {
@@ -84,9 +84,9 @@ h4,h5{
 }
 
 .hero-content button {
-  background-color: red;
-  border-color: red;
-  color: white;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
 }
 
 .hero-content button:hover{
@@ -102,9 +102,9 @@ button {
 /* Css Modal */
 
 .github-modal {
-  background-color: #121212 ;
+  background-color: #000 ;
   border-radius: 10px;
-  color: white;
+  color: #fff;
 }
 
 .modal-dialog {
@@ -121,7 +121,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: white;
+  color: #fff;
 }
 
 .modal-title {
@@ -151,7 +151,7 @@ button {
 }
 
 .social-icons a:hover {
-  color: white;
+  color: #fff;
 }
 
 .footer-links a {
@@ -160,7 +160,7 @@ button {
 
 .footer-links a:hover {
   text-decoration: none;
-  color: white;
+  color: #fff;
   }
 
   /* Css NavBar */

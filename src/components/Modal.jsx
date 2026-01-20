@@ -25,7 +25,7 @@ function Modal({ id, title }) {
           <div className="modal-body p-0">
             <div className="row g-0">
 
-              {/* GAUCHE */}
+              {/* Left part */}
               <div className="col-12 col-md-6">
                 <img
                   src={doraemon}
@@ -34,7 +34,7 @@ function Modal({ id, title }) {
                 />
               </div>
 
-              {/* DROITE */}
+              {/* Right part */}
               <div className="col-12 col-md-6 p-4 github-modal-info">
                 <p><i class="bi bi-person"> </i><a href="" target="blank">John Doe </a></p>
                 <hr className="short-hr" style={{backgroundColor:"grey"}} />
